@@ -115,12 +115,12 @@
 
   .hero h1 {
     font-size: 40px;
-    width: 100%;
+    width: 90%;
   }
 
   .hero p {
     width: 80%;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .hero-action {
@@ -128,12 +128,18 @@
     align-items: center;
     gap: 12px;
   }
-
-  .hero-connect,
+  .hero-connect {
+    width: 100%;
+    text-align: center;
+    padding: 18px 8px;
+    border: 40px;
+    margin-bottom: 20px;
+  }
   .hero-resume {
     width: 100%;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 40px;
+    border-radius: 40px;
   }
 }
 
@@ -165,5 +171,6 @@
   .hero-resume {
     font-size: 14px;
     padding: 12px 18px;
+    margin-bottom: 20px;
   }
 }

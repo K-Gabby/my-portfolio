@@ -45,14 +45,14 @@ const Contact = () => {
           </p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src={mail_icon} alt="Mail Icon" />{" "}
+              <img src={mail_icon} alt="Mail Icon" />
               <p>kehindegabrielolaniyi22@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="Call Icon" /> <p>+234-813-834-2991</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="Location Icon" />{" "}
+              <img src={location_icon} alt="Location Icon" />
               <p>Lagos, Nigeria</p>
             </div>
           </div>
